@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>score-keeper-game</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+      <div class="container">
+            <div class="column is-offset-one-quarter">
+                  <div class="column is-half is-offset-one-quater">
+                        <div class="card">
+                              <img src="https://previews.123rf.com/images/hanoiphotography/hanoiphotography1701/hanoiphotography170101166/70531662-tennis-ball-and-racket-on-green-grass-field-ground.jpg" alt="tennis-ball-background-image" class="image">
+                              <div class="card-header">
+                                    <p class="card-header-title title is-4">Score Keeper Game</p>
+                              </div>
+                              <div class="card-content">
+                                    <h1 class="score title is-1"> <span id="p1Display">0</span> of <span id="p2Display">0</span></h1>
+                                    <label for=""></label>
+                                    <div class="container">
+                                          <h1 class="is-inline pt-1">Play up to:</h1>
+                                          <input type="number" id="play-to" class="input is-one-fifth is-inline" placeholder="number">
+                                          <p><h6 class="has-text-info">You want to play up to: <span id="to" class="title  is-4"></span></h6></p>
+                                    </div>
+
+                              </div>
+                              <h4 class="has-text-centered">use the following buttons to keep score</h4>
+                              <footer class="card-footer">
+                                    <p class="card-footer-item">
+                                          <button id="p1-btn" class="button is-success is-small is-offset-one-quarter m-1">Player one +1</button>
+                                          <button id="p2-btn" class="button is-success is-small is-offset-one-quarter m-1">Player two +1</button>
+                                          <button id="reset-btn" class="button is-danger is-small is-offset-one-quarter m-1">Reset Game</button>
+                                    </p>
+                              </footer>
+                              
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <section>
+    
+
+    <script src="/app.js"></script>
+</body>
+</html>
